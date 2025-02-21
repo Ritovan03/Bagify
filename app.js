@@ -4,7 +4,7 @@ const app = express();
 
 const cookieParser = require('cookie-parser');
 const path = require('path');
-const db = require('./config/mongoose');
+const db = require('./config/mongoose_connection');
 const ownersRouter = require('./routes/ownersRouter');
 const productsRouter = require('./routes/productsRouter');
 const usersRouter = require('./routes/usersRouter');
